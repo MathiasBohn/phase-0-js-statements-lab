@@ -22,10 +22,10 @@ if (timeOfDay === "evening" && "night") {
 
 }
 
-while (soilMoisture <= 40) {
-
-  console.log(soilMoisture);
+while (soilMoisture < 40) {
 
   soilMoisture++;
 
 }
+
+console.log(soilMoisture);
